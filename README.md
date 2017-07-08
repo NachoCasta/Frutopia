@@ -6,7 +6,8 @@
 	- [ ] Pedidos
 		- [ ] Descuentos
 		- [ ] Quejas
-		- [ ] 
+		- [ ] Entregado
+		- [ ] Pagado
 	- [ ] Trabajadores
 	- [ ] Bonos
 		- [ ] X mejores
