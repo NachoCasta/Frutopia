@@ -2,8 +2,9 @@
 
 ## Cosas por hacer
 
-- [ ] Pedido
-	- [ ] Pedidos
+- [ ] Pedidos
+	- [ ] Pedido
+		- [ ] Productos
 		- [ ] Descuentos
 		- [ ] Quejas
 		- [ ] Entregado
@@ -18,6 +19,7 @@
 	- [ ] Costos adicionales
 - [ ] Meses
 - [ ] Deudas
+	- [ ] Avisar por mail
 - [ ] Recibos
 - [ ] Base de datos
 	- [ ] Jefes de grupo
@@ -25,4 +27,5 @@
 	- [ ] Vendedores
 	- [ ] Proveedores
 	- [ ] Trabajadores
-	- [ ] Verduleriasc
+	- [ ] Verdulerias
+- [ ] Estimador
