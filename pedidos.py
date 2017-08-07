@@ -1,3 +1,5 @@
+import json
+
 import personas
 
 class Pedido:
@@ -34,11 +36,27 @@ class PedidoJefe:
         self.productos.append(producto)
 
     
+
+    
 class Producto:
 
-    def __init__(self, nombre, precio, masa):
+    def __init__(self, nombre, precio, masa, unidad):
         self.nombre = nombre
         self.precio = precio
         self.masa = masa
-        self.entregado = False
+        self.entregado = False        
+
+    def __eq__(self, other):
+        return self.nombre == other.nombre and \
+               self.precio == other.precio and \
+               self.masa == other.masa
+
+    @property
+    def producto_recibo(self):
+        with open("productos.json", "r") as file:
+            productos = json.load(file)
+            try:
+                return productos[self.nombre.lower()][str(self.masa)]
+            except KeyError:
+                return Exception("Producto no existe")
 

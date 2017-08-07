@@ -1,6 +1,3 @@
-
-
-
 class MetaPersona(type):
     
     personas = []

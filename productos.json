@@ -1,0 +1,58 @@
+{
+    "frutillas": {
+        "2": {
+            "formato": "cajas",
+            "nombre": "Frutillas 2 kg",
+            "variable": "frutillas",
+            "variable_precio": "f_precio"
+        }
+    },
+    "mandarinas": {
+        "4": {
+            "formato": "mallas",
+            "nombre": "Mandarinas 4 kg",
+            "variable": "mandarinas",
+            "variable_precio": "m_precio"
+        }
+    },
+    "naranjas": {
+        "5": {
+            "formato": "mallas",
+            "nombre": "Naranjas 5 kg",
+            "variable": "naranjas",
+            "variable_precio": "nar_precio"
+        }
+    },
+    "nueces": {
+        "500": {
+            "formato": "cajas",
+            "nombre": "Nueces 500 gr",
+            "variable": "nueces",
+            "variable_precio": "nue_precio"
+        }
+    },
+    "paltas": {
+        "2": {
+            "formato": "mallas",
+            "nombre": "Paltas 2 kg",
+            "variable": "paltas",
+            "variable_precio": "p_precio"
+        }
+    },
+    "quesos": {
+        "1050": {
+            "formato": "packs",
+            "nombre": "Quesos 1050 gr",
+            "variable": "quesos",
+            "variable_precio": "q_precio"
+        }
+    },
+    "tomate cherry": {
+        "1": {
+            "formato": "cajas",
+            "nombre": "Tomate Cherry 1 kg",
+            "variable": "tomatecherry",
+            "variable_precio": "t_precio"
+        }
+    }
+}
