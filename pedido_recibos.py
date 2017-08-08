@@ -62,6 +62,3 @@ productos = {
 with open("productos.json", "w") as file:
     json.dump(productos, file, sort_keys=True, indent=4)
 
-
-with open("productos.json", "r") as file:
-    p = json.load(file)

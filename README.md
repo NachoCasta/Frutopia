@@ -4,7 +4,7 @@
 
 - [ ] Pedidos
 	- [ ] Pedido
-		- [ ] Productos
+		- [x] Productos
 		- [ ] Descuentos
 		- [ ] Quejas
 		- [ ] Entregado
@@ -20,9 +20,9 @@
 - [ ] Meses
 - [ ] Deudas
 	- [ ] Avisar por mail
-- [ ] Recibos
+- [x] Recibos
 - [ ] Base de datos
-	- [ ] Jefes de grupo
+	- [x] Jefes de grupo
 	- [ ] Grupos
 	- [ ] Vendedores
 	- [ ] Proveedores

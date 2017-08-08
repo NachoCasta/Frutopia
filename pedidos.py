@@ -8,6 +8,15 @@ class Pedido:
         self.fecha = fecha
         self.pedidos = []
 
+    def productos_distintos(self):
+        productos = []
+        for pedido in self.pedidos:
+            for producto in pedido.productos_distintos():
+                producto_recibo = producto.producto_recibo
+                if producto_recibo not in productos:
+                    productos.append(producto_recibo)
+        return productos
+
 
 class PedidoJefe:
 
@@ -35,7 +44,13 @@ class PedidoJefe:
     def agregar_producto(self, producto):
         self.productos.append(producto)
 
-    
+    def productos_distintos(self):
+        productos = []
+        for producto in self.productos:
+            if producto not in productos:
+                productos.append(producto)
+        return productos
+        
 
     
 class Producto:
